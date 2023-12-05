@@ -3,11 +3,11 @@ title: "SQLite + Tableau: Bike-Share Navigate Speedy Success?"
 author: "Jason D."
 date: "2023-04-01"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     toc: yes
     theme: united
+  pdf_document:
+    toc: yes
 --- 
 
 ```{r setup, warning= FALSE , include=FALSE}
@@ -31,15 +31,15 @@ This is a capstone project from Google’s Data Analyst curriculum program.  A b
 
 2.2 Business task:
 
-* Lily Mareno the director of marketing has assigned the question, how do annual members and casual riders use Cyclistic bikes diﬀerently?
+* Lily Mareno the director of marketing, has assigned the question, "how do annual members and casual riders use Cyclistic bikes diﬀerently?"
 
 
 2.3 Data:
 
-* The data to be analyzed has been sourced from: Index of bucket "divvy-tripdata": [ Data set](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement). This is public data for the purpose of exploring how diﬀerent customer types are using Cyclistic bikes. Regarding data-privacy issues the historical purchases using personal payment information and fare not provided.
+* The data to be analyzed has been sourced from: Index of bucket "divvy-tripdata": [ Data set](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement). This is public data for the purpose of exploring how diﬀerent customer types are using Cyclistic bikes. Regarding data-privacy issues, the historical purchases using personal payment information and the bike rental fare is not provided.
 
 # 3. Preparing Data for Exploration
-Once data has been downloaded into a local computer, it is secured with an encrypted password. The last 12 months of data will be analyzed for the purpose of this project. Data comes in 12 cvs files for corresponding to the last 12 months.
+Once data has been downloaded into a local computer, it is secured with an encrypted password. The last 12 months of data will be analyzed for the purpose of this project. Data comes in 12 CVS files for corresponding to the last 12 months.
 
 The data analysis will be analyzed through Sqlite specifically DB Browser which  is a serverless relational  database written in the  program language called Structured Query Language. The  Relational database store and provide access to data points that are in some way related to one another. Tableau an online data visualization tool will also be used to generate graphical representation of that data being analyzed.
 
@@ -558,11 +558,11 @@ LIMIT 10;
 
 #### How could your team and business apply your insights?
 
-• Any promotions should be done on Saturday during peak hours of 1200 to 1600 hr. Specifically summer months late May through August to maximize the promotional message to casual bike share riders.
+• Any promotions should be done on Saturday during peak hours of 1200 to 1600 hr. Specificall, inthe  summer months from late May through August to maximize the promotional message to casual bike share riders.
 
 #### What next steps would you or your stakeholders take based on your ﬁndings?
 
-Promotional campaign focused on casual riders. Communicate to casual riders that there could be incentives to becoming from member rider. • 1 month free or discounted price for 12 months subscription * Communicate to casual member who reach a ride length thrush hold that it may be beneficial economically to convert to annual
+Promotional campaign focused on casual riders. Communicate to casual riders that there could be incentives to becoming from member riders. • 1 month free or discounted price for 12 months subscription * Communicate to casual member who reach a ride length threshold that it may be beneficial economically to convert to annual
 
 
 
