@@ -3,11 +3,11 @@ title: "SQLite + Tableau: Bike-Share Navigate Speedy Success?"
 author: "Jason D."
 date: "2023-04-01"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     toc: yes
     theme: united
+  pdf_document:
+    toc: yes
 --- 
 
 ```{r setup, warning= FALSE , include=FALSE}
