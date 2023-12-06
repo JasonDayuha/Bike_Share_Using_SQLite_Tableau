@@ -3,11 +3,11 @@ title: "SQLite + Tableau: Bike-Share Navigate Speedy Success?"
 author: "Jason D."
 date: "2023-04-01"
 output:
+  pdf_document:
+    toc: yes
   html_document:
     toc: yes
     theme: united
-  pdf_document:
-    toc: yes
 --- 
 
 ```{r setup, warning= FALSE , include=FALSE}
@@ -558,11 +558,11 @@ LIMIT 10;
 
 #### How could your team and business apply your insights?
 
-• Any promotions should be done on Saturday during peak hours of 1200 to 1600 hr. Specificall, inthe  summer months from late May through August to maximize the promotional message to casual bike share riders.
+• Any promotions should be done on Saturday during peak hours of 1200 to 1600 hr. Specifically, in the  summer months from late May through August to maximize the promotional message to casual bike share riders.
 
 #### What next steps would you or your stakeholders take based on your ﬁndings?
 
-Promotional campaign focused on casual riders. Communicate to casual riders that there could be incentives to becoming from member riders. • 1 month free or discounted price for 12 months subscription * Communicate to casual member who reach a ride length threshold that it may be beneficial economically to convert to annual
+Promotional campaign focused on casual riders. Communicate to casual riders that there could be incentives to becoming member riders. • 1 month free or discounted price for 12 months subscription * Communicate to casual member who reach a ride length threshold that it may be beneficial economically to convert to an annual membership.
 
 
 
