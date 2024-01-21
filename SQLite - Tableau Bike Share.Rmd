@@ -211,7 +211,7 @@ from bike_ride2
 where start_station_name IS not NULL and  end_station_name IS NULL
 group by rideable_type;
 
--- what about the other way around, where users use a bike outside a station, and 
+-- what about the other way around, where users use a bike outside a start station, and 
 --returned it to a station? Results: only electri 403,090
 
 SELECT rideable_type, count(1)
@@ -340,9 +340,9 @@ WHERE start_station_name IS NOT NULL AND end_station_name IS NOT NULL -- Exclude
 GROUP BY member_casual;
 ```
 
-[5.1 Statistical Summery ] <img src="https://imgur.com/kp5wN74.png" width= "1000px">
-
-Members totaled 2,593,039 rides compared to casual members with 1,741,281 total rides in the last 12 months of November 2021 to October 2022. In contrast the casual member, used Cyclistic bike service longer than annual members.
+[5.1 Statistical Summery ] <img src="https://imgur.com/6NHe21F.jpg" width= "1000px"> 
+ 
+Members totaled 3,329,096 rides compared to casual members with 2,299,823 total rides in the last 12 months of November 2021 to October 2022. In contrast the casual member, used Cyclistic bike service longer than annual members.
 
 Base on the bike ride count throughout November 2021 to October 2022, there were more bike use starting from the summer months of May to October for both casual and annual members. Daily bike usage range from 8,000 rides to as high as 16,000 in bike ride daily. For months of June and July member daily ride count  surges up to 20,000 ride  were as casual members peak at 16,000 rides daily.
 
